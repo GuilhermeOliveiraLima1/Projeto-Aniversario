@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Timeline from './pages/timeline/Timeline.jsx'
 import Songs from './pages/songs/Songs.jsx'
 import LoveYouBecause from './pages/love you because/LoveYouBecause.jsx'
-import MiniGame from './pages/miniGames/miniGame.jsx'
+import MiniGame from './pages/miniGames/MiniGame.jsx'
 
 createRoot(document.getElementById('root')).render(
 
