@@ -11,7 +11,7 @@ import MiniGame from './pages/miniGames/miniGame.jsx'
 createRoot(document.getElementById('root')).render(
 
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/timeline" element={<Timeline />} />
