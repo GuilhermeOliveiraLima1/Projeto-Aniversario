@@ -1,16 +1,37 @@
 .content{
-    margin-top: 60px;
-    padding-bottom: 80px;
     font-size: 18px;
 }
 .text{
-    text-align: center;
+    font-size: 21px;
+    background-image:url(../../../public/textura.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+}
+.assinatura{
+    text-align: right;
+    margin-top: 10px;
+    font-size: 15px;
 }
 .timer{
-    background-color: rgb(134, 134, 134);
-    color: white;
+    background-color: #f1d78e;
     padding: 10px;
-    text-align: center;
+    text-align: justify;
     border-radius: 5px;
-    margin: 10px 2px 10px 2px;
+    margin: 0 2px 10px 2px;
+}
+
+img{
+    width: 120px;
+    border-radius: 5px;
+}
+
+.images{
+    gap: 10px;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
 }
