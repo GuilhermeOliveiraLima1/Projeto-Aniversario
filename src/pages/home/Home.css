@@ -3,7 +3,7 @@
 }
 .text{
     font-size: 21px;
-    background-image:url(../../../public/textura.png);
+    background-image:url(/textura.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10px;
