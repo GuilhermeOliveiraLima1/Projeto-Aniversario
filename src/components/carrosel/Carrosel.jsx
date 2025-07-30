@@ -42,19 +42,39 @@ const eventos = [
     texto: 'Essa com certeza é uma das palavras que mais definem o que eu sinto por vc, tenho muito orgulho por todo o esforço que vc faz .',
   },
   {
-    ano: 'Eu amo isso',
+    ano: 'Eu amo...',
+    imagem: '/carrosel/img11.jpg',
+    texto: 'Eu amo seu sorriso pq ele me faz sentir bem.',
+  },
+  {
+    ano: '',
     imagem: '/carrosel/img8.jpg',
-    texto: '.',
+    texto: 'Eu amo o seu jeito de ser.',
   },
   {
     ano: '',
-    imagem: '/carrosel/img7.jpg',
-    texto: 'Essa com certeza é uma das palavras que mais definem o que eu sinto por vc, tenho muito orgulho por todo o esforço que vc faz .',
+    imagem: '/carrosel/img10.jpeg',
+    texto: 'Eu amo cuidar de vc.',
   },
   {
     ano: '',
-    imagem: '/carrosel/img7.jpg',
-    texto: 'Essa com certeza é uma das palavras que mais definem o que eu sinto por vc, tenho muito orgulho por todo o esforço que vc faz .',
+    imagem: '/carrosel/img9.jpg',
+    texto: 'Eu amo mimar de vc.',
+  },
+  {
+    ano: '',
+    imagem: '/carrosel/img13.jpg',
+    texto: 'Eu amo passar meu tempo com vc.',
+  },
+  {
+    ano: '',
+    imagem: '/carrosel/img14.png',
+    texto: 'Eu amo planejar meu futuro com vc contruindo nossa família.',
+  },
+  {
+    ano: '',
+    imagem: '/carrosel/img15.png',
+    texto: 'Eu amo cada detalhe em vc e nesses 3 anos vc me conguistou um pouquinho mais a cada dia que se passava e com isso fez com que eu escolhesse vc para divider minha vida, eu te amo minha plincesa🤍.',
   },
 ];
 
@@ -64,7 +84,7 @@ function Carrosel() {
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation={{ clickable: true, prevEl: false, nextEl: false }}
-        autoplay={{ delay: 5000 }}
+        autoplay={{ delay: 50000 }}
         spaceBetween={30}
         slidesPerView={1}
         loop
@@ -75,7 +95,6 @@ function Carrosel() {
               <img src={evento.imagem} alt={`Evento ${evento.ano}`} />
               <div className="ano">{evento.ano}</div>
               <p className="descricao">{evento.texto}</p>
-              <div className="custom-pagination"></div>
             </div>
           </SwiperSlide>
         ))}

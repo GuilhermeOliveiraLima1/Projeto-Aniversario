@@ -2,7 +2,7 @@
     font-size: 18px;
 }
 .text{
-    font-size: 21px;
+    font-size: 18px;
     background-image:url(/textura.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,9 +11,10 @@
     text-align: justify;
 }
 .assinatura{
-    text-align: right;
-    margin-top: 10px;
-    font-size: 15px;
+    padding-left: 180px;
+    text-align: justify;
+    margin-top: 15px;
+    font-size: 14px;
 }
 .timer{
     background-color: #f1d78e;

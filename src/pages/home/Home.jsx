@@ -39,13 +39,13 @@ function Home() {
           <strong>{time.seconds}</strong> segundos 🤍
         </div>  
         <div className="text">
-        <p >Eu venho me perguntando a um tempo o que eu fiz pra merecer alguém como você, uma pessoa que me ajuda nos meus momentos difíceis,
-           torna meus dias melhores você é a pessoa mais incrível que já apareceu na minha vida, poderia dizer mais diversas qualidades suas agora 
+        <p >Eu venho me perguntando a um tempo o que eu fiz pra merecer alguém como você,e agradeço por ter vc na minha vida, uma pessoa que me ajuda nos meus momentos difíceis,
+           torna meus dias melhores, você é a pessoa mais incrível que já apareceu na minha vida eu poderia dizer mais diversas qualidades suas agora 
            mas vou deixar para falar daqui a pouco eu te amo, enfim eu estou fazendo isso como forma de demonstrar
            e agradecer o quanto eu te amo só que do meu jeitinho nerd, como você mesma fala que eu sou kkk espero que goste🤍.</p>
            
 
-        <p className="assinatura">-com muito amor do seu plincipe encantado </p>
+        <p className="assinatura">para a mulher da minha vida com muito amor do seu plincipe encantado </p>
         </div>
         <hr style={{ marginTop: '20px', border: 'none', height: '1px', background: '#f1d78e' }} />
 
