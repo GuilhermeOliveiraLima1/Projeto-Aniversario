@@ -15,6 +15,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<Home />} />
         <Route path="/carrosel" element={<Timeline />} />
         <Route path="/songs" element={<Songs />} />
+        <Route path="/loveYouBecause" element={<LoveYouBecause />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
