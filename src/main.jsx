@@ -5,7 +5,6 @@ import Home from './pages/home/Home.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Timeline from './pages/timeline/Timeline.jsx'
 import Songs from './pages/songs/Songs.jsx'
-import LoveYouBecause from './pages/loveYouBecause/LoveYouBecause.jsx'
 
 createRoot(document.getElementById('root')).render(
 
@@ -15,7 +14,6 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<Home />} />
         <Route path="/carrosel" element={<Timeline />} />
         <Route path="/songs" element={<Songs />} />
-        <Route path="/loveYouBecause" element={<LoveYouBecause />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
