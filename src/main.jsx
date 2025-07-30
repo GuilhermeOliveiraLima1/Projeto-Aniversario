@@ -14,10 +14,8 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/timeline" element={<Timeline />} />
+        <Route path="/carrosel" element={<Timeline />} />
         <Route path="/songs" element={<Songs />} />
-        <Route path="/loveyoubecause" element={<LoveYouBecause />}></Route>
-        <Route path="/miniGame" element={<MiniGame />}></Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>,

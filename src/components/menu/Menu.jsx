@@ -4,11 +4,10 @@ import './Menu.css'
 const BottomMenu = () => {
   return (
     <div className="bottom-menu">
-      <button onClick={() => window.location.href = '/timeline'}>Carrosel</button>
-      <button onClick={() => window.location.href = '/songs'}>Música</button>
+      <button onClick={() => window.location.href = '/carrosel'}>Carrosel</button>
       <button onClick={() => window.location.href = '/'}>Início</button>
-      <button onClick={() => window.location.href = '/loveyoubecause'}>Eu te amo porque...</button>
-      <button onClick={() => window.location.href = '/miniGame'}>Jogo</button>
+      <button onClick={() => window.location.href = '/songs'}>Música</button>
+
     </div>
   )
 }

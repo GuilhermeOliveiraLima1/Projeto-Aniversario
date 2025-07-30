@@ -5,20 +5,20 @@
 }
 
 .card {
-  background: #fff6e0;
+  background: #c7c3b7;
   border-radius: 12px;
   padding: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   text-align: center;
+  position: relative;
 }
 
 .card img {
-  width: 250px;
+  width: 300px;
   border-radius: 8px;
   margin-bottom: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 .ano {
   font-size: 20px;
@@ -31,5 +31,27 @@
   font-size: 15px;
   color: #444;
   line-height: 1.4;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+/* bullets */
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  gap: 6px;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #999;
+  border-radius: 50%;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background: #007aff;
+  opacity: 1;
 }

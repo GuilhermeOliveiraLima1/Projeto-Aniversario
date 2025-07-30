@@ -32,7 +32,7 @@ function Home() {
       <div className="content">
         <div className="timer">
 
-          Namorados desde 10/08/2022 ou se preferir há: <br />
+          Namorados desde 10/08/2022 ou se preferir há:
           <strong>{time.days}</strong> dias,{' '}
           <strong>{time.hours}</strong> horas,{' '}
           <strong>{time.minutes}</strong> minutos e{' '}
