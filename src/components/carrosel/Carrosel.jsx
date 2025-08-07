@@ -74,7 +74,7 @@ const eventos = [
   {
     ano: '',
     imagem: '/carrosel/img15.png',
-    texto: 'Eu amo cada detalhe em vc e nesses 3 anos vc me conguistou um pouquinho mais a cada dia que se passava e com isso fez com que eu escolhesse vc para divider minha vida, eu te amo minha plincesa🤍.',
+    texto: 'Eu amo cada detalhe em vc e nesses 3 anos vc me conquistou um pouquinho mais a cada dia que se passava e com isso fez com que eu escolhesse vc para divider minha vida, eu te amo minha plincesa🤍.',
   },
 ];
 
