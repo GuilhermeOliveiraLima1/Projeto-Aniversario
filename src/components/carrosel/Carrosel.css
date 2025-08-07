@@ -5,7 +5,7 @@
 }
 
 .card {
-  background: #c7c3b7;
+  background: #cd9d62;
   border-radius: 12px;
   padding: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -23,24 +23,16 @@
 .ano {
   font-size: 20px;
   font-weight: bold;
-  color: #c08a42;
   margin-bottom: 8px;
 }
 
 .descricao {
   font-size: 15px;
-  color: #444;
   line-height: 1.4;
   margin-bottom: 12px;
 }
 
-/* bullets */
-.custom-pagination {
-  display: flex;
-  justify-content: center;
-  margin-top: 8px;
-  gap: 6px;
-}
+
 
 .custom-pagination .swiper-pagination-bullet {
   width: 10px;

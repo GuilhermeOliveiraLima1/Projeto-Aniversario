@@ -9,7 +9,7 @@ export default function Songs() {
       <Header />
       <div className="content">
         <div>
-          <p>Depois de te conhecer, todas as musicas de amor me lembram você, mas essas são especiais de um jeito diferente, cada uma me lembra de uma coisinha difernte em vc.</p>
+          <p>Depois de te conhecer, todas as musicas de amor me lembram você, mas essas são especiais de um jeito diferente, cada uma me lembra de uma coisinha diferente em vc.</p>
         </div>
 
 
@@ -25,7 +25,7 @@ export default function Songs() {
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         />
-        <p>Nunca vou esquecer dessa música a primeira música que vc dedicou a mim.</p>
+        <p>"Eu já deitei no seu sorriso só você não sabe..."Nunca vou esquecer dessa música a primeira música que vc dedicou para mim.</p>
         </div>
 
         <div className='music'>
@@ -148,8 +148,6 @@ export default function Songs() {
         />
         <p>"Seu cabelo me alucina sua boca me devora sua voz me ilumina seu olhar me apavora..." Tudo em vc é maravilhoso.</p>
         </div>
-
-
 
 
       </div>

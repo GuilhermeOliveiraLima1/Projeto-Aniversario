@@ -84,7 +84,7 @@ function Carrosel() {
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation={{ clickable: true, prevEl: false, nextEl: false }}
-        autoplay={{ delay: 50000 }}
+        autoplay={{ delay: 5000 }}
         spaceBetween={30}
         slidesPerView={1}
         loop

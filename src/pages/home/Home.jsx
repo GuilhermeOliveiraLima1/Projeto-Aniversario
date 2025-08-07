@@ -47,7 +47,7 @@ function Home() {
 
         <p className="assinatura">para a mulher da minha vida com muito amor do seu plincipe encantado </p>
         </div>
-        <hr style={{ marginTop: '20px', border: 'none', height: '1px', background: '#f1d78e' }} />
+        <hr style={{ marginTop: '20px', border: 'none', height: '1px', background: '#cd9d62' }} />
 
         <div className="images">
           <img src="/fotos/image2.jpg" alt="imagem1" />
