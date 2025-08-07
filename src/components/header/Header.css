@@ -16,6 +16,7 @@
   height: 60px;
   background-color: white;
   padding-bottom: 10px;
+  z-index: 1000;
 }
 
 body {
